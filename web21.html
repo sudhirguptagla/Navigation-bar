@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation-Bar</title>
+    <style>
+        .navbar{
+            background-color: #2385a3;
+            border-radius:35px;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 21px;
+
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: white;
+            
+        }
+        /* hover property uses */
+        .navbar li a:hover{
+            background-color: #115a71;
+            color: black;
+        }
+        .search{
+            float: right;
+            color: azure;
+            padding: 14px 70px;
+        }
+        .navbar input{
+            border:#4cbee1;
+            border-radius: 15px;
+            width:120px;
+        }
+    </style>
+</head>
+<body><!-- How to create  simple way navigation bar-->
+    <header>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#"> Gmail</a></li>
+                    <li><a href="#">Services</a></li>
+                    <div class="search"> 
+                        <input type="text" name ="search" id="search" placeholder="Search this website" >
+
+                    </div>
+                </ul>
+            </nav>
+    </header>
+</body>
+</html>
